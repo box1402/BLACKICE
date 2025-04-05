@@ -1,0 +1,30 @@
+# BlackIce IoT Vulnerability Scanner - Dependencies
+
+# Core requirements (essential for basic functionality)
+requests>=2.28.0
+shodan>=1.28.0
+urllib3>=1.26.0
+
+# Data formatting and display
+tabulate>=0.9.0
+colorama>=0.4.4
+tqdm>=4.64.0  # Progress bars
+
+# Network connections
+paramiko>=2.10.0  # SSH client
+telnetlib3>=1.0.0  # Telnet client
+pysnmp>=4.4.12  # SNMP client
+
+# Visualization and data analysis
+folium>=0.12.0  # Maps
+matplotlib>=3.5.0  # Charts
+pandas>=1.4.0  # Data manipulation
+networkx>=2.8.0  # Network graphs
+python-louvain>=0.16  # Community detection
+
+# Network scanning and security testing
+python-nmap>=0.7.1  # Network scanning
+cryptography>=37.0.0  # Cryptographic functions
+pyopenssl>=22.0.0  # SSL/TLS testing
+
+# Install with: pip install -r requirements.txt 

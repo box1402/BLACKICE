@@ -1,0 +1,72 @@
+# BlackIce IoT Security Tool .gitignore
+
+# API keys and secrets
+.shodan_api_key
+.shodan/
+.blackice/shodan_api_key
+*_api_key
+
+# Cache and data directories
+.blackice/cache/
+.blackice/logs/
+.blackice/device_history.json
+visualizations/
+cache/
+logs/
+
+# Output files
+*.csv
+*.json
+*.html
+*.png
+*_report_*
+vulnerability_report_*
+device_charts_*
+scan_*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+.temp/
+*.tmp
+*.bak
+*.log
+
+# Exception for example files
+!example_output/*.json
+!example_output/*.html
+!example_output/*.png
+!example_output/*.csv 
