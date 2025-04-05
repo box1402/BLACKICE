@@ -11,7 +11,7 @@ SHODAN_API_KEY = "YOUR_API_KEY"
 
 # Version Information
 VERSION = "1.0.0"
-GITHUB_REPO = "https://github.com/yourusername/blackice"
+GITHUB_REPO = "https://github.com/box1402/blackice"
 USER_AGENT = f"BlackIce-Scanner/{VERSION}"
 
 # Auto-update configuration
