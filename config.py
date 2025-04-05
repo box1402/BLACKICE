@@ -7,7 +7,7 @@ Edit this file to customize your setup and API keys.
 """
 
 # API Keys (replace with your actual keys)
-SHODAN_API_KEY = "QMF4fyJhnPZnCyWELcKy5JkHdfsOZXDG"
+SHODAN_API_KEY = "YOUR_API_KEY"
 
 # Version Information
 VERSION = "1.0.0"
